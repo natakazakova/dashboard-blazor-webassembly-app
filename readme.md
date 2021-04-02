@@ -7,3 +7,7 @@ The backend `Server` app is an ASP.NET Core application that process requests fr
 ## Documentation
 
 - [Create a Blazor WebAssembly Dashboard Application](https://docs.devexpress.com/Dashboard/401892?v=21.1)
+
+## More Examples
+
+- [Get Started - Dashboard Component in Blazor Server Application](https://github.com/natakazakova/dashboard-blazor-server-app)
