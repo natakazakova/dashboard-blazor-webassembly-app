@@ -41,7 +41,6 @@ namespace DashboardBlazorWebAssemblyApp.Server {
                         jsonDataSourceUrl.JsonSource = new UriJsonSource(
                                 new Uri("https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json"));
                         jsonDataSourceUrl.RootElement = "Customers";
-                        jsonDataSourceUrl.Fill();
                         dataSourceStorage.RegisterDataSource("jsonDataSourceUrl", jsonDataSourceUrl.SaveToXml());
                         configurator.SetDataSourceStorage(dataSourceStorage);
                     });
